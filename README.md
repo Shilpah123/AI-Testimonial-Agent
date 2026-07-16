@@ -2,6 +2,7 @@
 A human-in-the-loop AI agent system that automates testimonial collection, validation, categorization, and GitHub-based publishing while preserving original human-authored content.
 
 ## Structure
+```text
 GitHub
 │
 ├── shilpah123.github.io          ← Your portfolio website
@@ -24,3 +25,4 @@ GitHub
 │   │
 │   ├── README.md
 │   └── requirements.txt
+```
