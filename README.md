@@ -26,3 +26,17 @@ GitHub
 │   ├── README.md
 │   └── requirements.txt
 ```
+
+## Architecture
+```mermaid
+flowchart TD
+    A[Colleague submits testimonial] --> B[Testimonial Agent]
+    B --> C[Validation Agent]
+    B --> D[Category Agent]
+    B --> E[Formatting Agent]
+    C --> F[Approval]
+    D --> F
+    E --> F
+    F --> G[GitHub Update Agent]
+    G --> H[Portfolio Website]
+```
